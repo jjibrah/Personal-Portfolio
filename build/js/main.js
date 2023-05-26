@@ -1,4 +1,10 @@
 const initApp = () => {
+    const year = document.getElementById("year")
+    const thisYear = new Date().getFullYear()
+    year.setAttribute("datetime", thisYear)
+    year.textContent = thisYear
+
+    
     const hamburgerBtn = document.getElementById('hamburger-button')
     const mobileMenu = document.getElementById('mobile-menu')
 
@@ -13,3 +19,4 @@ const initApp = () => {
 }
 
 document.addEventListener('DOMContentLoaded', initApp)
+
