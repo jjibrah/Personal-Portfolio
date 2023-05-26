@@ -12,16 +12,15 @@
 </head>
 <body  class="min-h-screen bg-gradient-to-r from-cyan-950 from-10% via-sky-700 via-50% to-stone-300 to-90%">
     <header>
-        <section class="bg-cyan-700 mx-auto rounded-br-lg rounded-bl-lg flex max-w-4xl items-center justify-between p-4">
+        <section class="bg-cyan-700 mt-3 mx-auto rounded-br-lg rounded-tr-lg rounded-tl-lg rounded-bl-lg flex max-w-4xl items-center justify-between p-4">
             <h1 class="text-3xl font-medium">
               <a href="#hero"><img class="w-12 h-12 rounded-xl" src="Aliens Letter A Logo.jpeg" alt="logo"></a>
             </h1>
             <div>
               <button
                 id="hamburger-button"
-                class="relative h-8 w-8 cursor-pointer text-3xl md:hidden"
-              >
-                <!-- &#9776; -->
+                class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
+               <!--  &#9776; -->
                 <div
                   class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
                 ></div>
@@ -35,7 +34,36 @@
             </div>
           </section>
           
-      
+          <section
+          id="mobile-menu"
+          class="justify-center absolute top-0 text-amber-100 h-full hidden w-full origin-top animate-open-menu flex-col bg-slate-700 bg-opacity-90 text-5xl"
+        >
+          <!-- <button class="text-8xl self-end px-6">
+                  &times;
+              </button> -->
+          <nav
+            class="flex min-h-screen flex-col items-center py-8"
+            aria-label="mobile"
+          >
+            <a href="#hero" class="w-full py-6 text-center hover:opacity-90"
+              >Home</a
+            >
+            <a href="#about" class="w-full py-6 text-center hover:opacity-90"
+              >Know Me</a
+            >
+            <a
+              href="#portfolio"
+              class="w-full py-6 text-center hover:opacity-90"
+              >My work</a
+            >
+            <a href="#contact" class="w-full py-6 text-center hover:opacity-90"
+              >Contact Us</a
+            >
+            <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
+              >Info</a
+            >
+          </nav>
+        </section>
 
     </header>
 <main>
@@ -112,6 +140,7 @@
       <h3 class="text-center text-3xl text-slate-900 dark:text-white">
         TailwindCSS
       </h3>
+      <p class="text-gray-700 p2 text-center text-2xl">A full website made using tailwind css</p>
   
     </li>
     <li
@@ -121,7 +150,7 @@
       <h3 class="text-center text-3xl text-slate-900 dark:text-white">
         CSS
       </h3>
-      <p>I studied and summary of css project</p>
+      <p class="text-gray-700 p2 text-center text-2xl">I studied, summary and website made by css</p>
     </li>
     <li
       class="flex w-2/3 flex-col items-center rounded-3xl border-none border-slate-900 py-6 px-2 shadow-xl dark:border-gray-100 bg-transparent "
@@ -131,6 +160,7 @@
       <h3 class="text-center text-3xl text-slate-900 dark:text-white">
         HTML5
       </h3>
+      <p class="text-gray-700 p2 text-center text-2xl">Find all the basic topic and knowledge in html</p>
     </li>
 
     <li
@@ -140,6 +170,7 @@
       <h3 class="text-center text-3xl text-slate-900 dark:text-white">
         AirHome Project
       </h3>
+      <p class="text-gray-700 p2 text-center text-2xl">An application that links people to airbnb</p>
     </li>
   </ul>
 </section>
