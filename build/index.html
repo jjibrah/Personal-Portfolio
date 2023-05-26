@@ -67,11 +67,26 @@
 
     </header>
 <main>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <section
     id="hero"
     class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center justify-center gap-8 p-6 md:flex-row"
   >
-    <article class="md:w-1/2">
+    <article class="md:w-1/2">\
+      <div>
+        <div>
+          <h1 class="text-fuchsia-200 font-bold text-6xl"><span class="auto-type"></span></h1>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+          var typed = new Typed(".auto-type",{
+              strings:["Welcome...","Get to Know Me"],
+              typeSpeed: 150,
+              backSpeed:150,
+              loop: true
+          })
+        </script>
+    </div>
       <h2
         class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-center sm:text-5xl"
       >
@@ -237,11 +252,11 @@ class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-
     class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between"
   >
     <address>
-      <a href="https://www.instagram.com/"><div class="flex p-2 ml-3 flow-row">
-      <img class="w-8" src="img/app_ic.png" alt="instagram">
-      <h3 class="ml-3">Abdibrah</h3>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/DirectEd"><div class="flex p-2 ml-3 flow-row">
+      <img class="w-8" src="img/Icônes gratuites Gmail conçues par Freepik.png" alt="instagram">
+      <h3 class="ml-3">Ibarabdi109@gmail.com</h3>
     </div></a>
-      <a href=""><div class="flex p-2 ml-3 flow-row">
+      <a href="#footer"><div class="flex p-2 ml-3 flow-row">
       <img class="w-8" src="img/linkedinicon.jpeg" alt="instagram">
       <h3 class="ml-3">Abdibrah@linkedin</h3>
     </div></a>
@@ -263,5 +278,6 @@ class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-
     </div>
   </section>
 </footer>
+
 </body>
 </html>
