@@ -644,6 +644,30 @@ video {
   margin-left: 0.75rem;
 }
 
+.ml-11 {
+  margin-left: 2.75rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
+}
+
 .flex {
   display: flex;
 }
