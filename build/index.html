@@ -11,11 +11,14 @@
 
 </head>
 <body  class="min-h-screen bg-gradient-to-r from-cyan-950 from-10% via-sky-700 via-50% to-stone-300 to-90%">
+
+  
 <header>
         <section class="bg-cyan-700 mt-3 mx-auto rounded-br-lg rounded-tr-lg rounded-tl-lg rounded-bl-lg flex max-w-4xl items-center justify-between p-4">
-            <h1 class="text-3xl font-medium">
+            <div>
               <a href="#hero"><img class="w-12 h-12 rounded-xl" src="Aliens Letter A Logo.jpeg" alt="logo"></a>
-            </h1>
+            </div>
+
             <div>
               <button
                 id="hamburger-button"
@@ -25,18 +28,19 @@
                   class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
                 ></div>
               </button>
+
               <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
                 <a href="#about" class="hover:bg-sky-300 hover:bg-opacity-70 hover:text-yellow-50 border-none p-2 rounded-tl-lg rounded-br-lg">Know me</a>
                 <a href="#portfolio" class="hover:bg-sky-300 hover:bg-opacity-70 hover:text-yellow-50 border-none p-2 rounded-tl-lg rounded-br-lg">My work</a>
                 <a href="#contact" class="hover:bg-sky-300 hover:bg-opacity-70 hover:text-yellow-50 border-none p-2 rounded-tl-lg rounded-br-lg">Contact me</a>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" type="email" class="bg-gray-800 text-cyan-100 flex-grow-0bg-violet-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 hover:bg-gradient-to-r from-sky-300 from-1% via-blue-950 via 20% to-sky-300 to-99%  hover:text-yellow-50 border p-2 border-solid rounded-tl-lg rounded-br-lg">Hire me</a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" type="email" class="bg-gray-800 text-cyan-100 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 hover:bg-gradient-to-r from-sky-300 from-1% via-blue-950 via 20% to-sky-300 to-99%  hover:text-yellow-50 border p-2 border-solid rounded-tl-lg rounded-br-lg">Hire me</a>
               </nav>
             </div>
           </section>
           
           <section
           id="mobile-menu"
-          class="justify-center absolute top-25 text-amber-100 h-full hidden w-full origin-top animate-open-menu flex-col bg-slate-700 bg-opacity-90 text-5xl"
+          class="justify-center absolute text-amber-100 h-full hidden w-full origin-top animate-open-menu flex-col bg-slate-700 bg-opacity-90 text-5xl"
         >
           <!-- <button class="text-8xl self-end px-6">
                   &times;
@@ -69,15 +73,13 @@
 
 
 <main>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <section
-    id="hero"
-    class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center justify-center gap-8 p-6 md:flex-row"
+ 
+    <section id="hero" class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center justify-center gap-8 p-6 md:flex-row"
   >
     <article class="md:w-1/2">\
       <div>
         <div>
-          <h1 class="text-fuchsia-200 font-bold text-4xl md:text-6xl"><span class="auto-type"></span></h1>
+          <h1 class="text-fuchsia-200 font-bold text-4xl md:text-6xl"><span class="auto-type">qwerty</span></h1>
         </div>
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script>
@@ -112,7 +114,7 @@
 
   <hr class="mx-auto mb-40 mt-20 w-1/2 bg-black dark:bg-white">
 
-  <section id="about" class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center justify-center gap-8  p-6 sm:flex-col">
+  <section id="about" class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-10 flex-col items-center justify-center gap-8  p-6 sm:flex-col">
     <h2 class="text-gray-950 text-6xl lg:text-6xl sm:text-4xl md:text-5xl p-2 mr-2 text-center ml2 bg-sky-200 rounded">More About me</h2>
      <h4 class="mt-2  text-2xl font-serif text-gray-950  dark:text-blue-300 text-center sm:text-3xl">I am Abdifatah Ibrahim a young and talented Web Developer.</h4>
     <div class="bg-slate-500 bg-opacity-50 text-opacity-100 ml-4 mr-2 text-center p-14 rounded-2xl mt-2  text-2xl text-slate-800 sm:text-3xl">
@@ -143,7 +145,7 @@
 
   <hr class="mx-auto mb-20 w-1/2 bg-black dark:bg-white">
 
-  <section id="portfolio" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
+  <section id="portfolio" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-10 p-6"
 >
   <h2
     class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">MY PROJECTS</h2>
@@ -151,7 +153,7 @@
     class="mx-auto my-12 flex list-none flex-col items-center gap-8 md:flex-row"
   >
     <li
-      class="flex h-1/3 w-2/3 flex-col items-center rounded-3xl  border-slate-900 py-6 px-2 shadow-xl dark:border-gray-100 bg-transparent border-none"
+      class="flex h-1/3 w-2/3 flex-col items-center rounded-3xl  border-slate-900 py-6 px-2 shadow-xl dark:border-gray-100 bg-transparent "
     >
       <a class="mb-6 w-1/2"  href="https://github.com/jjibrah/TailwindCSSwork"><img src="./img/tailwind.png" alt="Tailwind"/></a>
       <h3 class="text-center text-3xl text-slate-900 dark:text-white">
@@ -190,63 +192,63 @@
       <p class="text-slate-800 p-2 text-center text-2xl">An application that links people to airbnb. Build by kotlin programming language to stisfy everyones needs</p>
     </li>
   </ul>
-</section>
-<hr class="mx-auto mb-20 w-1/2 bg-black dark:bg-white">
+  </section>
+
+  <hr class="mx-auto mb-20 w-1/2 bg-black dark:bg-white">
 
 
-<section
-id="contact"
-class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6"
->
-<h2
-  class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
->
-  Contact Me
-</h2>
-<form
-  action=""
-  class="items-left bg-slate-400 bg-opacity-40 p-10 rounded-2xl mx-auto flex max-w-3xl flex-col gap-4 text-2xl sm:text-3xl"
->  <label for="subject">Email:</label>
-  <input
-    type="text"
-    id="subject"
-    name="subject"
-    required
-    type="email"
-    minlength="3"
-    maxlength="60"
-    placeholder="Reply Email here"
-    class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
-  />
-  <label for="subject">Topic:</label>
-  <input
-    type="text"
-    id="subject"
-    name="subject"
-    required
-    minlength="3"
-    maxlength="60"
-    placeholder="Your Topic"
-    class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
-  />
-
-  <label for="message">Message:</label>
-  <textarea
-    name="message"
-    id="message"
-    cols="30"
-    rows="10"
-    placeholder="Your Message"
-    required
-    class="w-full rounded-xl h-24 border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
-  ></textarea>
-  <button
-    class="w-48 rounded-xl self-center border border-solid border-slate-900 bg-sky-500 p-3 text-white hover:bg-sky-700 active:bg-sky-900 grow-1 dark:border-none"
+  <section id="contact" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-10 p-6"
   >
-    Submit
-  </button>
-</form>
-</section>
+  <h2
+    class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+    Contact Me
+  </h2>
+  <form
+    action=""
+    class="items-left bg-slate-400 bg-opacity-40 p-10 rounded-2xl mx-auto flex max-w-3xl flex-col gap-4 text-2xl sm:text-3xl"
+  >  <label for="subject">Email:</label>
+    <input
+      type="email"
+      id="replyemail"
+      name="bossemail"
+      required
+      minlength="10"
+      maxlength="60"
+      placeholder="Reply Email here"
+      class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+    />
+    <label for="subject">Topic:</label>
+    <input
+      type="text"
+      id="subject"
+      name="subject"
+      required
+      minlength="3"
+      maxlength="60"
+      placeholder="Your Topic"
+      class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+    />
+
+    <label for="message">Message:</label>
+    <textarea
+      name="message"
+      id="message"
+      cols="30"
+      rows="10"
+      placeholder="Your Message"
+      required
+      class="w-full rounded-xl h-24 border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+    ></textarea>
+    <button 
+    type="submit"
+    class="w-48 rounded-xl self-center border border-solid border-slate-900 bg-sky-500 p-3 text-white hover:bg-sky-700 active:bg-sky-900 grow-1 dark:border-none"
+    >
+      Submit
+    </button>
+  </form>
+  </section>
+
+
 </main>
 
 
